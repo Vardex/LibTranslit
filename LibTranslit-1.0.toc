@@ -1,0 +1,13 @@
+## Interface: 80000
+## Title: Lib: Translit
+## Notes: Get unit frame for a unit
+## Author: Vardex
+## X-Category: Library
+## X-License: BSD
+## Version: 1.0.0
+## DefaultState: Enabled
+## LoadOnDemand: 0
+
+LibTranslit\LibTranslit.lua
+
+LibTranslit-1.0.xml
