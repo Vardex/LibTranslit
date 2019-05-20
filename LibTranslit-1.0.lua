@@ -1,5 +1,5 @@
 local MAJOR_VERSION = "LibTranslit-1.0"
-local MINOR_VERSION = 1
+local MINOR_VERSION = 2
 if not LibStub then error(MAJOR_VERSION .. " requires LibStub.") end
 local lib = LibStub:NewLibrary(MAJOR_VERSION, MINOR_VERSION)
 if not lib then return end
@@ -73,7 +73,7 @@ local CyrToLat = {
 	["я"] = "ya",
 }
 
-function lib.Transliterate(str, mark)
+function lib:Transliterate(str, mark)
 	local mark = mark or ""
 	if not str then
 		return ""
