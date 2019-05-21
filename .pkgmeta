@@ -1,4 +1,4 @@
-package-as: LibTranslit
+package-as: LibTranslit-1.0
 enable-nolib-creation: no
 
 externals:
