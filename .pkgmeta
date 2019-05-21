@@ -1,0 +1,8 @@
+package-as: LibTranslit
+enable-nolib-creation: no
+
+externals:
+ LibStub: https://repos.wowace.com/wow/libstub/trunk
+
+ignore:
+ - README.md
