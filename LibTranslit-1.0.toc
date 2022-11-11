@@ -3,7 +3,7 @@
 ## Notes: Transliterate string
 ## Author: Vardex
 ## X-Category: Library
-## X-License: BSD
+## X-License: LGPL-3.0
 ## Version: @project-version@
 ## DefaultState: Enabled
 ## LoadOnDemand: 0
